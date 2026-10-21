@@ -1,0 +1,68 @@
+{
+  "study_id": "panel_batch_bulk",
+  "title": "PanelBatch persistence parity (bulk)",
+  "research_question": "Does bulk panel ingestion preserve the same synthetic study results?",
+  "hypothesis": "Changing only the trajectory writer preserves all panel values, metrics and events.",
+  "title_i18n": {},
+  "research_question_i18n": {},
+  "hypothesis_i18n": {},
+  "study_type": "longitudinal",
+  "n_steps": 6,
+  "seed": 42,
+  "time_unit": "abstract",
+  "step_meaning": "One synthetic decision round; no real-world time interpretation.",
+  "key_attributes": [],
+  "metrics": [
+    "mean_opinion",
+    "opinion_std",
+    "frac_above_0_5"
+  ],
+  "metric_descriptions": {
+    "mean_opinion": "Mean opinion of all agents (0–1, higher = more inclined to adopt the new policy; the campaign should push it up)",
+    "opinion_std": "Population standard deviation of all agents' opinions (lower = more convergence / consensus; bounded-confidence averaging should make it fall over time)",
+    "frac_above_0_5": "Share of agents with opinion ≥ 0.5 (inclined to adopt) (0–1; shows when the majority flips)"
+  },
+  "display_metrics": [
+    "mean_opinion",
+    "opinion_std",
+    "frac_above_0_5"
+  ],
+  "run_note": {},
+  "environment_ref": "environment/environment.json",
+  "population_ref": "population/population.json",
+  "simulation_ref": "simulation/simulation.json",
+  "resources_ref": "resources.json",
+  "domain": "opinion-dynamics",
+  "tags": [
+    "opinion-dynamics",
+    "bounded-confidence",
+    "network",
+    "from-scratch"
+  ],
+  "legacy_simulator": "from_scratch",
+  "provider_refs": [
+    "opinion.env",
+    "opinion.pop",
+    "opinion.decision",
+    "opinion.collector"
+  ],
+  "adjustable_params": [
+    "n_agents",
+    "n_steps",
+    "confidence threshold",
+    "campaign step & content",
+    "media_pressure schedule"
+  ],
+  "status": "local-systems-demo",
+  "maintainer": "",
+  "demonstrates": [
+    "from-scratch-core",
+    "info-broadcast",
+    "branch-replay"
+  ],
+  "teaches": "the Path-B from-scratch shape: four abc + a make_*_bundles() factory, assembled generically by socioverse.engine.build_simulator (also the branch-replay exemplar)",
+  "reference": false,
+  "requires": null,
+  "rerunnable": true,
+  "created_by": "demo_study.py (fork of opinion_diffusion; AI-assisted)"
+}

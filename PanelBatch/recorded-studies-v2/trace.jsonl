@@ -1,0 +1,30 @@
+{"elapsed": 8.33999365568161e-07, "text": "PanelBatch | actual recorded local CLI run | synthetic agents only"}
+{"elapsed": 0.09457416692748666, "text": "No paid API, credentials or live language model is used."}
+{"elapsed": 0.373916583834216, "text": "CREATE panel_batch_baseline: forked official reference; typed P/E/B handoffs valid"}
+{"elapsed": 0.37404558388516307, "text": "CONFIG agents=128 steps=6 seed=42 llm_kind=scripted store_ref=duckdb"}
+{"elapsed": 0.37566416687332094, "text": "ROSTER materialized 128 persistent synthetic agent IDs"}
+{"elapsed": 0.5075756669975817, "text": "baseline step=0 mean=0.500000 std=0.288700"}
+{"elapsed": 3.488101291935891, "text": "baseline step=1 mean=0.500000 std=0.288600"}
+{"elapsed": 3.5189699588809162, "text": "baseline step=2 mean=0.617500 std=0.220800"}
+{"elapsed": 3.5448482499923557, "text": "baseline step=3 mean=0.707400 std=0.168900"}
+{"elapsed": 3.571423916844651, "text": "baseline step=4 mean=0.736600 std=0.151900"}
+{"elapsed": 3.595813708845526, "text": "baseline step=5 mean=0.763000 std=0.136700"}
+{"elapsed": 3.621431249892339, "text": "baseline step=6 mean=0.786700 std=0.123000"}
+{"elapsed": 3.9746354590170085, "text": "COMPLETE baseline: 896 panel rows; decision sources={'rule': 768}"}
+{"elapsed": 3.9749947499949485, "text": "FILES panel_batch_baseline/trajectory/study.duckdb, panel.parquet, metrics.parquet, metrics_history.json"}
+{"elapsed": 3.984651417005807, "text": "CREATE panel_batch_bulk: forked official reference; typed P/E/B handoffs valid"}
+{"elapsed": 3.9847988339606673, "text": "CONFIG agents=128 steps=6 seed=42 llm_kind=scripted store_ref=panel_batch.arrow"}
+{"elapsed": 3.9861952918581665, "text": "ROSTER materialized 128 persistent synthetic agent IDs"}
+{"elapsed": 3.9950101668946445, "text": "bulk     step=0 mean=0.500000 std=0.288700"}
+{"elapsed": 4.86716483393684, "text": "bulk     step=1 mean=0.500000 std=0.288600"}
+{"elapsed": 4.875409625004977, "text": "bulk     step=2 mean=0.617500 std=0.220800"}
+{"elapsed": 4.883793583838269, "text": "bulk     step=3 mean=0.707400 std=0.168900"}
+{"elapsed": 4.890187583863735, "text": "bulk     step=4 mean=0.736600 std=0.151900"}
+{"elapsed": 4.897202166961506, "text": "bulk     step=5 mean=0.763000 std=0.136700"}
+{"elapsed": 4.903575708856806, "text": "bulk     step=6 mean=0.786700 std=0.123000"}
+{"elapsed": 4.9726190839428455, "text": "COMPLETE bulk: 896 panel rows; decision sources={'rule': 768}"}
+{"elapsed": 4.977687541861087, "text": "FILES panel_batch_bulk/trajectory/study.duckdb, panel.parquet, metrics.parquet, metrics_history.json"}
+{"elapsed": 4.988009416963905, "text": "CHECK exact sorted panel / metrics / events parity: PASS"}
+{"elapsed": 4.996170624857768, "text": "DATA SHA256 9a3dfccbb75e99ea8839441b771070d7279ab3fff5370b636ac3d10566a712a2"}
+{"elapsed": 4.997013666899875, "text": "This 128-agent recorded run demonstrates operation, not a performance estimate."}
+{"elapsed": 5.005952833918855, "text": "See the separate 3-seed benchmark and fresh-process memory check for costs."}

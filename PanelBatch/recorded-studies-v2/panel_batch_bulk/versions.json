@@ -1,0 +1,15 @@
+{
+  "current": "v1",
+  "versions": [
+    {
+      "id": "v1",
+      "parent": null,
+      "note": "New synthetic systems demo, configured before first run",
+      "kind": "version",
+      "created_at": 1792540504.3188329,
+      "snapshot": null,
+      "warm_start": null,
+      "fork_step": null
+    }
+  ]
+}

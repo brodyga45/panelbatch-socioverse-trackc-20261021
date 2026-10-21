@@ -1,0 +1,29 @@
+name: Linux compatibility
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  synthetic-study:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    defaults:
+      run:
+        working-directory: PanelBatch
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Install pinned public-registry dependencies
+        run: python -m pip install --no-cache-dir -r requirements-probe.txt
+      - name: Record actual platform and dependency versions
+        run: python -c "import platform,duckdb,pyarrow; print(platform.platform()); print(platform.python_version()); print('duckdb',duckdb.__version__,'pyarrow',pyarrow.__version__)"
+      - name: Check store compatibility and failed-batch recovery
+        run: python -m pytest test_panel_batch_compatibility.py -q
+      - name: Run actual synthetic study and compare every persisted value
+        run: python demo_study.py --output "$RUNNER_TEMP/panelbatch-linux-demo"

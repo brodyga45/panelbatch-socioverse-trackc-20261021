@@ -1,0 +1,1937 @@
+{
+  "study_id": "panel_batch_bulk",
+  "personas": [
+    {
+      "agent_id": "od-000",
+      "attributes": {
+        "opinion0": 0.0039
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.0039
+      }
+    },
+    {
+      "agent_id": "od-001",
+      "attributes": {
+        "opinion0": 0.0117
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.0117
+      }
+    },
+    {
+      "agent_id": "od-002",
+      "attributes": {
+        "opinion0": 0.0195
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.0195
+      }
+    },
+    {
+      "agent_id": "od-003",
+      "attributes": {
+        "opinion0": 0.0273
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.0273
+      }
+    },
+    {
+      "agent_id": "od-004",
+      "attributes": {
+        "opinion0": 0.0352
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.0352
+      }
+    },
+    {
+      "agent_id": "od-005",
+      "attributes": {
+        "opinion0": 0.043
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.043
+      }
+    },
+    {
+      "agent_id": "od-006",
+      "attributes": {
+        "opinion0": 0.0508
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.0508
+      }
+    },
+    {
+      "agent_id": "od-007",
+      "attributes": {
+        "opinion0": 0.0586
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.0586
+      }
+    },
+    {
+      "agent_id": "od-008",
+      "attributes": {
+        "opinion0": 0.0664
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.0664
+      }
+    },
+    {
+      "agent_id": "od-009",
+      "attributes": {
+        "opinion0": 0.0742
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.0742
+      }
+    },
+    {
+      "agent_id": "od-010",
+      "attributes": {
+        "opinion0": 0.082
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.082
+      }
+    },
+    {
+      "agent_id": "od-011",
+      "attributes": {
+        "opinion0": 0.0898
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.0898
+      }
+    },
+    {
+      "agent_id": "od-012",
+      "attributes": {
+        "opinion0": 0.0977
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.0977
+      }
+    },
+    {
+      "agent_id": "od-013",
+      "attributes": {
+        "opinion0": 0.1055
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.1055
+      }
+    },
+    {
+      "agent_id": "od-014",
+      "attributes": {
+        "opinion0": 0.1133
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.1133
+      }
+    },
+    {
+      "agent_id": "od-015",
+      "attributes": {
+        "opinion0": 0.1211
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.1211
+      }
+    },
+    {
+      "agent_id": "od-016",
+      "attributes": {
+        "opinion0": 0.1289
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.1289
+      }
+    },
+    {
+      "agent_id": "od-017",
+      "attributes": {
+        "opinion0": 0.1367
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.1367
+      }
+    },
+    {
+      "agent_id": "od-018",
+      "attributes": {
+        "opinion0": 0.1445
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.1445
+      }
+    },
+    {
+      "agent_id": "od-019",
+      "attributes": {
+        "opinion0": 0.1523
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.1523
+      }
+    },
+    {
+      "agent_id": "od-020",
+      "attributes": {
+        "opinion0": 0.1602
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.1602
+      }
+    },
+    {
+      "agent_id": "od-021",
+      "attributes": {
+        "opinion0": 0.168
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.168
+      }
+    },
+    {
+      "agent_id": "od-022",
+      "attributes": {
+        "opinion0": 0.1758
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.1758
+      }
+    },
+    {
+      "agent_id": "od-023",
+      "attributes": {
+        "opinion0": 0.1836
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.1836
+      }
+    },
+    {
+      "agent_id": "od-024",
+      "attributes": {
+        "opinion0": 0.1914
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.1914
+      }
+    },
+    {
+      "agent_id": "od-025",
+      "attributes": {
+        "opinion0": 0.1992
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.1992
+      }
+    },
+    {
+      "agent_id": "od-026",
+      "attributes": {
+        "opinion0": 0.207
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.207
+      }
+    },
+    {
+      "agent_id": "od-027",
+      "attributes": {
+        "opinion0": 0.2148
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.2148
+      }
+    },
+    {
+      "agent_id": "od-028",
+      "attributes": {
+        "opinion0": 0.2227
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.2227
+      }
+    },
+    {
+      "agent_id": "od-029",
+      "attributes": {
+        "opinion0": 0.2305
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.2305
+      }
+    },
+    {
+      "agent_id": "od-030",
+      "attributes": {
+        "opinion0": 0.2383
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.2383
+      }
+    },
+    {
+      "agent_id": "od-031",
+      "attributes": {
+        "opinion0": 0.2461
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.2461
+      }
+    },
+    {
+      "agent_id": "od-032",
+      "attributes": {
+        "opinion0": 0.2539
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.2539
+      }
+    },
+    {
+      "agent_id": "od-033",
+      "attributes": {
+        "opinion0": 0.2617
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.2617
+      }
+    },
+    {
+      "agent_id": "od-034",
+      "attributes": {
+        "opinion0": 0.2695
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.2695
+      }
+    },
+    {
+      "agent_id": "od-035",
+      "attributes": {
+        "opinion0": 0.2773
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.2773
+      }
+    },
+    {
+      "agent_id": "od-036",
+      "attributes": {
+        "opinion0": 0.2852
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.2852
+      }
+    },
+    {
+      "agent_id": "od-037",
+      "attributes": {
+        "opinion0": 0.293
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.293
+      }
+    },
+    {
+      "agent_id": "od-038",
+      "attributes": {
+        "opinion0": 0.3008
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.3008
+      }
+    },
+    {
+      "agent_id": "od-039",
+      "attributes": {
+        "opinion0": 0.3086
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.3086
+      }
+    },
+    {
+      "agent_id": "od-040",
+      "attributes": {
+        "opinion0": 0.3164
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.3164
+      }
+    },
+    {
+      "agent_id": "od-041",
+      "attributes": {
+        "opinion0": 0.3242
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.3242
+      }
+    },
+    {
+      "agent_id": "od-042",
+      "attributes": {
+        "opinion0": 0.332
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.332
+      }
+    },
+    {
+      "agent_id": "od-043",
+      "attributes": {
+        "opinion0": 0.3398
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.3398
+      }
+    },
+    {
+      "agent_id": "od-044",
+      "attributes": {
+        "opinion0": 0.3477
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.3477
+      }
+    },
+    {
+      "agent_id": "od-045",
+      "attributes": {
+        "opinion0": 0.3555
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.3555
+      }
+    },
+    {
+      "agent_id": "od-046",
+      "attributes": {
+        "opinion0": 0.3633
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.3633
+      }
+    },
+    {
+      "agent_id": "od-047",
+      "attributes": {
+        "opinion0": 0.3711
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.3711
+      }
+    },
+    {
+      "agent_id": "od-048",
+      "attributes": {
+        "opinion0": 0.3789
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.3789
+      }
+    },
+    {
+      "agent_id": "od-049",
+      "attributes": {
+        "opinion0": 0.3867
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.3867
+      }
+    },
+    {
+      "agent_id": "od-050",
+      "attributes": {
+        "opinion0": 0.3945
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.3945
+      }
+    },
+    {
+      "agent_id": "od-051",
+      "attributes": {
+        "opinion0": 0.4023
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.4023
+      }
+    },
+    {
+      "agent_id": "od-052",
+      "attributes": {
+        "opinion0": 0.4102
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.4102
+      }
+    },
+    {
+      "agent_id": "od-053",
+      "attributes": {
+        "opinion0": 0.418
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.418
+      }
+    },
+    {
+      "agent_id": "od-054",
+      "attributes": {
+        "opinion0": 0.4258
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.4258
+      }
+    },
+    {
+      "agent_id": "od-055",
+      "attributes": {
+        "opinion0": 0.4336
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.4336
+      }
+    },
+    {
+      "agent_id": "od-056",
+      "attributes": {
+        "opinion0": 0.4414
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.4414
+      }
+    },
+    {
+      "agent_id": "od-057",
+      "attributes": {
+        "opinion0": 0.4492
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.4492
+      }
+    },
+    {
+      "agent_id": "od-058",
+      "attributes": {
+        "opinion0": 0.457
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.457
+      }
+    },
+    {
+      "agent_id": "od-059",
+      "attributes": {
+        "opinion0": 0.4648
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.4648
+      }
+    },
+    {
+      "agent_id": "od-060",
+      "attributes": {
+        "opinion0": 0.4727
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.4727
+      }
+    },
+    {
+      "agent_id": "od-061",
+      "attributes": {
+        "opinion0": 0.4805
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.4805
+      }
+    },
+    {
+      "agent_id": "od-062",
+      "attributes": {
+        "opinion0": 0.4883
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.4883
+      }
+    },
+    {
+      "agent_id": "od-063",
+      "attributes": {
+        "opinion0": 0.4961
+      },
+      "group_key": "low",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.4961
+      }
+    },
+    {
+      "agent_id": "od-064",
+      "attributes": {
+        "opinion0": 0.5039
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.5039
+      }
+    },
+    {
+      "agent_id": "od-065",
+      "attributes": {
+        "opinion0": 0.5117
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.5117
+      }
+    },
+    {
+      "agent_id": "od-066",
+      "attributes": {
+        "opinion0": 0.5195
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.5195
+      }
+    },
+    {
+      "agent_id": "od-067",
+      "attributes": {
+        "opinion0": 0.5273
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.5273
+      }
+    },
+    {
+      "agent_id": "od-068",
+      "attributes": {
+        "opinion0": 0.5352
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.5352
+      }
+    },
+    {
+      "agent_id": "od-069",
+      "attributes": {
+        "opinion0": 0.543
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.543
+      }
+    },
+    {
+      "agent_id": "od-070",
+      "attributes": {
+        "opinion0": 0.5508
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.5508
+      }
+    },
+    {
+      "agent_id": "od-071",
+      "attributes": {
+        "opinion0": 0.5586
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.5586
+      }
+    },
+    {
+      "agent_id": "od-072",
+      "attributes": {
+        "opinion0": 0.5664
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.5664
+      }
+    },
+    {
+      "agent_id": "od-073",
+      "attributes": {
+        "opinion0": 0.5742
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.5742
+      }
+    },
+    {
+      "agent_id": "od-074",
+      "attributes": {
+        "opinion0": 0.582
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.582
+      }
+    },
+    {
+      "agent_id": "od-075",
+      "attributes": {
+        "opinion0": 0.5898
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.5898
+      }
+    },
+    {
+      "agent_id": "od-076",
+      "attributes": {
+        "opinion0": 0.5977
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.5977
+      }
+    },
+    {
+      "agent_id": "od-077",
+      "attributes": {
+        "opinion0": 0.6055
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.6055
+      }
+    },
+    {
+      "agent_id": "od-078",
+      "attributes": {
+        "opinion0": 0.6133
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.6133
+      }
+    },
+    {
+      "agent_id": "od-079",
+      "attributes": {
+        "opinion0": 0.6211
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.6211
+      }
+    },
+    {
+      "agent_id": "od-080",
+      "attributes": {
+        "opinion0": 0.6289
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.6289
+      }
+    },
+    {
+      "agent_id": "od-081",
+      "attributes": {
+        "opinion0": 0.6367
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.6367
+      }
+    },
+    {
+      "agent_id": "od-082",
+      "attributes": {
+        "opinion0": 0.6445
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.6445
+      }
+    },
+    {
+      "agent_id": "od-083",
+      "attributes": {
+        "opinion0": 0.6523
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.6523
+      }
+    },
+    {
+      "agent_id": "od-084",
+      "attributes": {
+        "opinion0": 0.6602
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.6602
+      }
+    },
+    {
+      "agent_id": "od-085",
+      "attributes": {
+        "opinion0": 0.668
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.668
+      }
+    },
+    {
+      "agent_id": "od-086",
+      "attributes": {
+        "opinion0": 0.6758
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.6758
+      }
+    },
+    {
+      "agent_id": "od-087",
+      "attributes": {
+        "opinion0": 0.6836
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.6836
+      }
+    },
+    {
+      "agent_id": "od-088",
+      "attributes": {
+        "opinion0": 0.6914
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.6914
+      }
+    },
+    {
+      "agent_id": "od-089",
+      "attributes": {
+        "opinion0": 0.6992
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.6992
+      }
+    },
+    {
+      "agent_id": "od-090",
+      "attributes": {
+        "opinion0": 0.707
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.707
+      }
+    },
+    {
+      "agent_id": "od-091",
+      "attributes": {
+        "opinion0": 0.7148
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.7148
+      }
+    },
+    {
+      "agent_id": "od-092",
+      "attributes": {
+        "opinion0": 0.7227
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.7227
+      }
+    },
+    {
+      "agent_id": "od-093",
+      "attributes": {
+        "opinion0": 0.7305
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.7305
+      }
+    },
+    {
+      "agent_id": "od-094",
+      "attributes": {
+        "opinion0": 0.7383
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.7383
+      }
+    },
+    {
+      "agent_id": "od-095",
+      "attributes": {
+        "opinion0": 0.7461
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.7461
+      }
+    },
+    {
+      "agent_id": "od-096",
+      "attributes": {
+        "opinion0": 0.7539
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.7539
+      }
+    },
+    {
+      "agent_id": "od-097",
+      "attributes": {
+        "opinion0": 0.7617
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.7617
+      }
+    },
+    {
+      "agent_id": "od-098",
+      "attributes": {
+        "opinion0": 0.7695
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.7695
+      }
+    },
+    {
+      "agent_id": "od-099",
+      "attributes": {
+        "opinion0": 0.7773
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.7773
+      }
+    },
+    {
+      "agent_id": "od-100",
+      "attributes": {
+        "opinion0": 0.7852
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.7852
+      }
+    },
+    {
+      "agent_id": "od-101",
+      "attributes": {
+        "opinion0": 0.793
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.793
+      }
+    },
+    {
+      "agent_id": "od-102",
+      "attributes": {
+        "opinion0": 0.8008
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.8008
+      }
+    },
+    {
+      "agent_id": "od-103",
+      "attributes": {
+        "opinion0": 0.8086
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.8086
+      }
+    },
+    {
+      "agent_id": "od-104",
+      "attributes": {
+        "opinion0": 0.8164
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.8164
+      }
+    },
+    {
+      "agent_id": "od-105",
+      "attributes": {
+        "opinion0": 0.8242
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.8242
+      }
+    },
+    {
+      "agent_id": "od-106",
+      "attributes": {
+        "opinion0": 0.832
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.832
+      }
+    },
+    {
+      "agent_id": "od-107",
+      "attributes": {
+        "opinion0": 0.8398
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.8398
+      }
+    },
+    {
+      "agent_id": "od-108",
+      "attributes": {
+        "opinion0": 0.8477
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.8477
+      }
+    },
+    {
+      "agent_id": "od-109",
+      "attributes": {
+        "opinion0": 0.8555
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.8555
+      }
+    },
+    {
+      "agent_id": "od-110",
+      "attributes": {
+        "opinion0": 0.8633
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.8633
+      }
+    },
+    {
+      "agent_id": "od-111",
+      "attributes": {
+        "opinion0": 0.8711
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.8711
+      }
+    },
+    {
+      "agent_id": "od-112",
+      "attributes": {
+        "opinion0": 0.8789
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.8789
+      }
+    },
+    {
+      "agent_id": "od-113",
+      "attributes": {
+        "opinion0": 0.8867
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.8867
+      }
+    },
+    {
+      "agent_id": "od-114",
+      "attributes": {
+        "opinion0": 0.8945
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.8945
+      }
+    },
+    {
+      "agent_id": "od-115",
+      "attributes": {
+        "opinion0": 0.9023
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.9023
+      }
+    },
+    {
+      "agent_id": "od-116",
+      "attributes": {
+        "opinion0": 0.9102
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.9102
+      }
+    },
+    {
+      "agent_id": "od-117",
+      "attributes": {
+        "opinion0": 0.918
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.918
+      }
+    },
+    {
+      "agent_id": "od-118",
+      "attributes": {
+        "opinion0": 0.9258
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.9258
+      }
+    },
+    {
+      "agent_id": "od-119",
+      "attributes": {
+        "opinion0": 0.9336
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.9336
+      }
+    },
+    {
+      "agent_id": "od-120",
+      "attributes": {
+        "opinion0": 0.9414
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.9414
+      }
+    },
+    {
+      "agent_id": "od-121",
+      "attributes": {
+        "opinion0": 0.9492
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.9492
+      }
+    },
+    {
+      "agent_id": "od-122",
+      "attributes": {
+        "opinion0": 0.957
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.957
+      }
+    },
+    {
+      "agent_id": "od-123",
+      "attributes": {
+        "opinion0": 0.9648
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.9648
+      }
+    },
+    {
+      "agent_id": "od-124",
+      "attributes": {
+        "opinion0": 0.9727
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.9727
+      }
+    },
+    {
+      "agent_id": "od-125",
+      "attributes": {
+        "opinion0": 0.9805
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.9805
+      }
+    },
+    {
+      "agent_id": "od-126",
+      "attributes": {
+        "opinion0": 0.9883
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.9883
+      }
+    },
+    {
+      "agent_id": "od-127",
+      "attributes": {
+        "opinion0": 0.9961
+      },
+      "group_key": "high",
+      "weight": 1.0,
+      "init_state": {
+        "opinion": 0.9961
+      }
+    }
+  ],
+  "interaction": {
+    "kind": "explicit_network",
+    "edges": [
+      [
+        "od-000",
+        "od-001"
+      ],
+      [
+        "od-001",
+        "od-002"
+      ],
+      [
+        "od-002",
+        "od-003"
+      ],
+      [
+        "od-003",
+        "od-004"
+      ],
+      [
+        "od-004",
+        "od-005"
+      ],
+      [
+        "od-005",
+        "od-006"
+      ],
+      [
+        "od-006",
+        "od-007"
+      ],
+      [
+        "od-007",
+        "od-008"
+      ],
+      [
+        "od-008",
+        "od-009"
+      ],
+      [
+        "od-009",
+        "od-010"
+      ],
+      [
+        "od-010",
+        "od-011"
+      ],
+      [
+        "od-011",
+        "od-012"
+      ],
+      [
+        "od-012",
+        "od-013"
+      ],
+      [
+        "od-013",
+        "od-014"
+      ],
+      [
+        "od-014",
+        "od-015"
+      ],
+      [
+        "od-015",
+        "od-016"
+      ],
+      [
+        "od-016",
+        "od-017"
+      ],
+      [
+        "od-017",
+        "od-018"
+      ],
+      [
+        "od-018",
+        "od-019"
+      ],
+      [
+        "od-019",
+        "od-020"
+      ],
+      [
+        "od-020",
+        "od-021"
+      ],
+      [
+        "od-021",
+        "od-022"
+      ],
+      [
+        "od-022",
+        "od-023"
+      ],
+      [
+        "od-023",
+        "od-024"
+      ],
+      [
+        "od-024",
+        "od-025"
+      ],
+      [
+        "od-025",
+        "od-026"
+      ],
+      [
+        "od-026",
+        "od-027"
+      ],
+      [
+        "od-027",
+        "od-028"
+      ],
+      [
+        "od-028",
+        "od-029"
+      ],
+      [
+        "od-029",
+        "od-030"
+      ],
+      [
+        "od-030",
+        "od-031"
+      ],
+      [
+        "od-031",
+        "od-032"
+      ],
+      [
+        "od-032",
+        "od-033"
+      ],
+      [
+        "od-033",
+        "od-034"
+      ],
+      [
+        "od-034",
+        "od-035"
+      ],
+      [
+        "od-035",
+        "od-036"
+      ],
+      [
+        "od-036",
+        "od-037"
+      ],
+      [
+        "od-037",
+        "od-038"
+      ],
+      [
+        "od-038",
+        "od-039"
+      ],
+      [
+        "od-039",
+        "od-040"
+      ],
+      [
+        "od-040",
+        "od-041"
+      ],
+      [
+        "od-041",
+        "od-042"
+      ],
+      [
+        "od-042",
+        "od-043"
+      ],
+      [
+        "od-043",
+        "od-044"
+      ],
+      [
+        "od-044",
+        "od-045"
+      ],
+      [
+        "od-045",
+        "od-046"
+      ],
+      [
+        "od-046",
+        "od-047"
+      ],
+      [
+        "od-047",
+        "od-048"
+      ],
+      [
+        "od-048",
+        "od-049"
+      ],
+      [
+        "od-049",
+        "od-050"
+      ],
+      [
+        "od-050",
+        "od-051"
+      ],
+      [
+        "od-051",
+        "od-052"
+      ],
+      [
+        "od-052",
+        "od-053"
+      ],
+      [
+        "od-053",
+        "od-054"
+      ],
+      [
+        "od-054",
+        "od-055"
+      ],
+      [
+        "od-055",
+        "od-056"
+      ],
+      [
+        "od-056",
+        "od-057"
+      ],
+      [
+        "od-057",
+        "od-058"
+      ],
+      [
+        "od-058",
+        "od-059"
+      ],
+      [
+        "od-059",
+        "od-060"
+      ],
+      [
+        "od-060",
+        "od-061"
+      ],
+      [
+        "od-061",
+        "od-062"
+      ],
+      [
+        "od-062",
+        "od-063"
+      ],
+      [
+        "od-063",
+        "od-064"
+      ],
+      [
+        "od-064",
+        "od-065"
+      ],
+      [
+        "od-065",
+        "od-066"
+      ],
+      [
+        "od-066",
+        "od-067"
+      ],
+      [
+        "od-067",
+        "od-068"
+      ],
+      [
+        "od-068",
+        "od-069"
+      ],
+      [
+        "od-069",
+        "od-070"
+      ],
+      [
+        "od-070",
+        "od-071"
+      ],
+      [
+        "od-071",
+        "od-072"
+      ],
+      [
+        "od-072",
+        "od-073"
+      ],
+      [
+        "od-073",
+        "od-074"
+      ],
+      [
+        "od-074",
+        "od-075"
+      ],
+      [
+        "od-075",
+        "od-076"
+      ],
+      [
+        "od-076",
+        "od-077"
+      ],
+      [
+        "od-077",
+        "od-078"
+      ],
+      [
+        "od-078",
+        "od-079"
+      ],
+      [
+        "od-079",
+        "od-080"
+      ],
+      [
+        "od-080",
+        "od-081"
+      ],
+      [
+        "od-081",
+        "od-082"
+      ],
+      [
+        "od-082",
+        "od-083"
+      ],
+      [
+        "od-083",
+        "od-084"
+      ],
+      [
+        "od-084",
+        "od-085"
+      ],
+      [
+        "od-085",
+        "od-086"
+      ],
+      [
+        "od-086",
+        "od-087"
+      ],
+      [
+        "od-087",
+        "od-088"
+      ],
+      [
+        "od-088",
+        "od-089"
+      ],
+      [
+        "od-089",
+        "od-090"
+      ],
+      [
+        "od-090",
+        "od-091"
+      ],
+      [
+        "od-091",
+        "od-092"
+      ],
+      [
+        "od-092",
+        "od-093"
+      ],
+      [
+        "od-093",
+        "od-094"
+      ],
+      [
+        "od-094",
+        "od-095"
+      ],
+      [
+        "od-095",
+        "od-096"
+      ],
+      [
+        "od-096",
+        "od-097"
+      ],
+      [
+        "od-097",
+        "od-098"
+      ],
+      [
+        "od-098",
+        "od-099"
+      ],
+      [
+        "od-099",
+        "od-100"
+      ],
+      [
+        "od-100",
+        "od-101"
+      ],
+      [
+        "od-101",
+        "od-102"
+      ],
+      [
+        "od-102",
+        "od-103"
+      ],
+      [
+        "od-103",
+        "od-104"
+      ],
+      [
+        "od-104",
+        "od-105"
+      ],
+      [
+        "od-105",
+        "od-106"
+      ],
+      [
+        "od-106",
+        "od-107"
+      ],
+      [
+        "od-107",
+        "od-108"
+      ],
+      [
+        "od-108",
+        "od-109"
+      ],
+      [
+        "od-109",
+        "od-110"
+      ],
+      [
+        "od-110",
+        "od-111"
+      ],
+      [
+        "od-111",
+        "od-112"
+      ],
+      [
+        "od-112",
+        "od-113"
+      ],
+      [
+        "od-113",
+        "od-114"
+      ],
+      [
+        "od-114",
+        "od-115"
+      ],
+      [
+        "od-115",
+        "od-116"
+      ],
+      [
+        "od-116",
+        "od-117"
+      ],
+      [
+        "od-117",
+        "od-118"
+      ],
+      [
+        "od-118",
+        "od-119"
+      ],
+      [
+        "od-119",
+        "od-120"
+      ],
+      [
+        "od-120",
+        "od-121"
+      ],
+      [
+        "od-121",
+        "od-122"
+      ],
+      [
+        "od-122",
+        "od-123"
+      ],
+      [
+        "od-123",
+        "od-124"
+      ],
+      [
+        "od-124",
+        "od-125"
+      ],
+      [
+        "od-125",
+        "od-126"
+      ],
+      [
+        "od-126",
+        "od-127"
+      ],
+      [
+        "od-127",
+        "od-000"
+      ]
+    ],
+    "adjacency_ref": null
+  },
+  "propagation": "contagion",
+  "provider_ref": "opinion.pop",
+  "provider_args": {
+    "n_agents": 128
+  },
+  "materialized_count": 128
+}

@@ -1,0 +1,7 @@
+{"study_id": "opinion_diffusion", "step": 0, "n_steps": 6, "ts": 1792540537.8811781, "metrics": {"mean_opinion": 0.5, "opinion_std": 0.2885, "frac_above_0_5": 0.5, "step": 0}}
+{"study_id": "opinion_diffusion", "step": 1, "n_steps": 6, "ts": 1792540537.893724, "metrics": {"mean_opinion": 0.5, "opinion_std": 0.2877, "frac_above_0_5": 0.5, "step": 1}}
+{"study_id": "opinion_diffusion", "step": 2, "n_steps": 6, "ts": 1792540537.896089, "metrics": {"mean_opinion": 0.6175, "opinion_std": 0.2195, "frac_above_0_5": 0.6562, "step": 2, "events": "media pressure ramps up at the campaign step"}}
+{"study_id": "opinion_diffusion", "step": 3, "n_steps": 6, "ts": 1792540537.8979142, "metrics": {"mean_opinion": 0.7074, "opinion_std": 0.1675, "frac_above_0_5": 0.8438, "step": 3}}
+{"study_id": "opinion_diffusion", "step": 4, "n_steps": 6, "ts": 1792540537.900258, "metrics": {"mean_opinion": 0.7367, "opinion_std": 0.1505, "frac_above_0_5": 0.9688, "step": 4}}
+{"study_id": "opinion_diffusion", "step": 5, "n_steps": 6, "ts": 1792540537.915516, "metrics": {"mean_opinion": 0.763, "opinion_std": 0.1351, "frac_above_0_5": 1.0, "step": 5}}
+{"study_id": "opinion_diffusion", "step": 6, "n_steps": 6, "ts": 1792540537.918005, "metrics": {"mean_opinion": 0.7867, "opinion_std": 0.1213, "frac_above_0_5": 1.0, "step": 6}}

@@ -1,0 +1,22 @@
+{
+  "at": "2026-10-20T23:47:22.455229+00:00",
+  "research_question": "When does bulk transaction insertion reduce the cost of longitudinal agent simulation without changing observable study results?",
+  "predeclared_scope": "Systems evaluation of compatible trajectory persistence; synthetic cohorts only, no claim about actual human behaviour.",
+  "next_tests_only_if_needed": [
+    "Profile peak resident memory for largest declared cohort before claiming resource-cost reduction",
+    "Fresh-process clean reproduction and dependency/version capture before release",
+    "Write-up must separate write-only and full-run figures and disclose initialization/noise"
+  ],
+  "rejection_gates": [
+    "Exact panel, metrics, event, export or replay parity breaks",
+    "Any partial failed-step commit",
+    "Unbounded extra memory outweighs throughput at declared population scale",
+    "Programme expressly requires unavailable paid calls or incompatible mandatory participation"
+  ],
+  "commercial_gates": [
+    "No award or settlement inferred from prototype",
+    "Unknown award bank rail/ISO currency/timetable remain unknown",
+    "Do not repeat organizer inquiry or uncertain Reineur form action",
+    "No protected account/terms or new expense before actual owner step"
+  ]
+}

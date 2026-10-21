@@ -1,0 +1,77 @@
+{
+  "at": "2026-10-20T23:55:19.406579+00:00",
+  "LLM_calls": 0,
+  "cash_spend": 0,
+  "workload": "Unmodified official opinion_diffusion model in scripted mode, 6 steps; synthetic agents",
+  "timing_scope": "sim.run: population, dynamics, storage, live panel/progress output, metrics, Parquet finalization",
+  "limitations": [
+    "Local single host, not cross-platform or independent judging",
+    "No evidence about true human opinion, empirical validity, or LLM-bound speedup",
+    "No peak-memory claim"
+  ],
+  "cases": [
+    {
+      "agents": 256,
+      "seeds": [
+        17,
+        42,
+        99
+      ],
+      "run_seconds": {
+        "baseline": [
+          2.2841232088394463,
+          0.5985563329886645,
+          0.5832650419324636
+        ],
+        "bulk": [
+          0.767499334178865,
+          0.1570195839740336,
+          0.13819662504829466
+        ]
+      },
+      "median_full_run_speedup": 3.8119852176378717,
+      "exact_panel_metrics_events_parity": true,
+      "parquet_parity": true
+    },
+    {
+      "agents": 2048,
+      "seeds": [
+        17,
+        42,
+        99
+      ],
+      "run_seconds": {
+        "baseline": [
+          3.4164260828401893,
+          4.3747074590064585,
+          3.8509333750698715
+        ],
+        "bulk": [
+          0.5221700419206172,
+          0.4674170420039445,
+          0.4730239170603454
+        ]
+      },
+      "median_full_run_speedup": 8.141096541168327,
+      "exact_panel_metrics_events_parity": true,
+      "parquet_parity": true
+    }
+  ],
+  "branch": {
+    "inherited_steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "decision_steps": [
+      4,
+      5,
+      6
+    ],
+    "both_writers_exact_parity": true,
+    "parent_prefix_reproduced": true
+  },
+  "wall_seconds": 18.532252250006422,
+  "raw_databases_retained": true
+}

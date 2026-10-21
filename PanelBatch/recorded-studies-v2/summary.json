@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-20T23:55:05.341780+00:00",
+  "actual_trace": true,
+  "P": "128 synthetic persistent agents",
+  "E": "official template environment;6abstract rounds",
+  "B": "unchanged scripted decision rule",
+  "LLM_calls": 0,
+  "new_cash_spend": 0,
+  "panel_rows_each": 896,
+  "exact_parity": true,
+  "SHA256": "9a3dfccbb75e99ea8839441b771070d7279ab3fff5370b636ac3d10566a712a2",
+  "demo_runtime_seconds_not_benchmark": {
+    "baseline": 3.4836991250049323,
+    "bulk": 0.9399495418183506
+  },
+  "study_paths": [
+    "panel_batch_baseline",
+    "panel_batch_bulk"
+  ],
+  "full_raw_data_retained": true,
+  "upstream_modified": false,
+  "report_does_not_use_demo_as_speedup_estimate": true
+}

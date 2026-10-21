@@ -1,0 +1,224 @@
+{"agent_id": "od-000", "step": 0, "state": {"opinion": 0.0156}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-001", "step": 0, "state": {"opinion": 0.0469}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-002", "step": 0, "state": {"opinion": 0.0781}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-003", "step": 0, "state": {"opinion": 0.1094}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-004", "step": 0, "state": {"opinion": 0.1406}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-005", "step": 0, "state": {"opinion": 0.1719}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-006", "step": 0, "state": {"opinion": 0.2031}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-007", "step": 0, "state": {"opinion": 0.2344}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-008", "step": 0, "state": {"opinion": 0.2656}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-009", "step": 0, "state": {"opinion": 0.2969}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-010", "step": 0, "state": {"opinion": 0.3281}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-011", "step": 0, "state": {"opinion": 0.3594}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-012", "step": 0, "state": {"opinion": 0.3906}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-013", "step": 0, "state": {"opinion": 0.4219}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-014", "step": 0, "state": {"opinion": 0.4531}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-015", "step": 0, "state": {"opinion": 0.4844}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-016", "step": 0, "state": {"opinion": 0.5156}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-017", "step": 0, "state": {"opinion": 0.5469}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-018", "step": 0, "state": {"opinion": 0.5781}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-019", "step": 0, "state": {"opinion": 0.6094}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-020", "step": 0, "state": {"opinion": 0.6406}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-021", "step": 0, "state": {"opinion": 0.6719}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-022", "step": 0, "state": {"opinion": 0.7031}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-023", "step": 0, "state": {"opinion": 0.7344}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-024", "step": 0, "state": {"opinion": 0.7656}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-025", "step": 0, "state": {"opinion": 0.7969}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-026", "step": 0, "state": {"opinion": 0.8281}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-027", "step": 0, "state": {"opinion": 0.8594}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-028", "step": 0, "state": {"opinion": 0.8906}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-029", "step": 0, "state": {"opinion": 0.9219}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-030", "step": 0, "state": {"opinion": 0.9531}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-031", "step": 0, "state": {"opinion": 0.9844}, "action_kind": null, "action_payload": {}, "action_source": null}
+{"agent_id": "od-000", "step": 1, "state": {"opinion": 0.0234}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.0234}, "action_source": "replay"}
+{"agent_id": "od-001", "step": 1, "state": {"opinion": 0.0469}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.0469}, "action_source": "replay"}
+{"agent_id": "od-002", "step": 1, "state": {"opinion": 0.0781}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.0781}, "action_source": "replay"}
+{"agent_id": "od-003", "step": 1, "state": {"opinion": 0.1094}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.1094}, "action_source": "replay"}
+{"agent_id": "od-004", "step": 1, "state": {"opinion": 0.1406}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.1406}, "action_source": "replay"}
+{"agent_id": "od-005", "step": 1, "state": {"opinion": 0.1719}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.1719}, "action_source": "replay"}
+{"agent_id": "od-006", "step": 1, "state": {"opinion": 0.2031}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.2031}, "action_source": "replay"}
+{"agent_id": "od-007", "step": 1, "state": {"opinion": 0.2344}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.2344}, "action_source": "replay"}
+{"agent_id": "od-008", "step": 1, "state": {"opinion": 0.2656}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.2656}, "action_source": "replay"}
+{"agent_id": "od-009", "step": 1, "state": {"opinion": 0.2969}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.2969}, "action_source": "replay"}
+{"agent_id": "od-010", "step": 1, "state": {"opinion": 0.3281}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.3281}, "action_source": "replay"}
+{"agent_id": "od-011", "step": 1, "state": {"opinion": 0.3594}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.3594}, "action_source": "replay"}
+{"agent_id": "od-012", "step": 1, "state": {"opinion": 0.3906}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.3906}, "action_source": "replay"}
+{"agent_id": "od-013", "step": 1, "state": {"opinion": 0.4219}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.4219}, "action_source": "replay"}
+{"agent_id": "od-014", "step": 1, "state": {"opinion": 0.4531}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.4531}, "action_source": "replay"}
+{"agent_id": "od-015", "step": 1, "state": {"opinion": 0.4844}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.4844}, "action_source": "replay"}
+{"agent_id": "od-016", "step": 1, "state": {"opinion": 0.5156}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5156}, "action_source": "replay"}
+{"agent_id": "od-017", "step": 1, "state": {"opinion": 0.5469}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5469}, "action_source": "replay"}
+{"agent_id": "od-018", "step": 1, "state": {"opinion": 0.5781}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5781}, "action_source": "replay"}
+{"agent_id": "od-019", "step": 1, "state": {"opinion": 0.6094}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6094}, "action_source": "replay"}
+{"agent_id": "od-020", "step": 1, "state": {"opinion": 0.6406}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6406}, "action_source": "replay"}
+{"agent_id": "od-021", "step": 1, "state": {"opinion": 0.6719}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6719}, "action_source": "replay"}
+{"agent_id": "od-022", "step": 1, "state": {"opinion": 0.7031}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7031}, "action_source": "replay"}
+{"agent_id": "od-023", "step": 1, "state": {"opinion": 0.7344}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7344}, "action_source": "replay"}
+{"agent_id": "od-024", "step": 1, "state": {"opinion": 0.7656}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7656}, "action_source": "replay"}
+{"agent_id": "od-025", "step": 1, "state": {"opinion": 0.7969}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7969}, "action_source": "replay"}
+{"agent_id": "od-026", "step": 1, "state": {"opinion": 0.8281}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8281}, "action_source": "replay"}
+{"agent_id": "od-027", "step": 1, "state": {"opinion": 0.8594}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8594}, "action_source": "replay"}
+{"agent_id": "od-028", "step": 1, "state": {"opinion": 0.8906}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8906}, "action_source": "replay"}
+{"agent_id": "od-029", "step": 1, "state": {"opinion": 0.9219}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9219}, "action_source": "replay"}
+{"agent_id": "od-030", "step": 1, "state": {"opinion": 0.9531}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9531}, "action_source": "replay"}
+{"agent_id": "od-031", "step": 1, "state": {"opinion": 0.9766}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9766}, "action_source": "replay"}
+{"agent_id": "od-000", "step": 2, "state": {"opinion": 0.2574}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.2574}, "action_source": "replay"}
+{"agent_id": "od-001", "step": 2, "state": {"opinion": 0.2719}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.2719}, "action_source": "replay"}
+{"agent_id": "od-002", "step": 2, "state": {"opinion": 0.2948}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.2948}, "action_source": "replay"}
+{"agent_id": "od-003", "step": 2, "state": {"opinion": 0.3187}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.3187}, "action_source": "replay"}
+{"agent_id": "od-004", "step": 2, "state": {"opinion": 0.3426}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.3426}, "action_source": "replay"}
+{"agent_id": "od-005", "step": 2, "state": {"opinion": 0.3665}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.3665}, "action_source": "replay"}
+{"agent_id": "od-006", "step": 2, "state": {"opinion": 0.3904}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.3904}, "action_source": "replay"}
+{"agent_id": "od-007", "step": 2, "state": {"opinion": 0.4143}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.4143}, "action_source": "replay"}
+{"agent_id": "od-008", "step": 2, "state": {"opinion": 0.4382}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.4382}, "action_source": "replay"}
+{"agent_id": "od-009", "step": 2, "state": {"opinion": 0.4621}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.4621}, "action_source": "replay"}
+{"agent_id": "od-010", "step": 2, "state": {"opinion": 0.486}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.486}, "action_source": "replay"}
+{"agent_id": "od-011", "step": 2, "state": {"opinion": 0.5099}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5099}, "action_source": "replay"}
+{"agent_id": "od-012", "step": 2, "state": {"opinion": 0.5338}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5338}, "action_source": "replay"}
+{"agent_id": "od-013", "step": 2, "state": {"opinion": 0.5577}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5577}, "action_source": "replay"}
+{"agent_id": "od-014", "step": 2, "state": {"opinion": 0.5816}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5816}, "action_source": "replay"}
+{"agent_id": "od-015", "step": 2, "state": {"opinion": 0.6056}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6056}, "action_source": "replay"}
+{"agent_id": "od-016", "step": 2, "state": {"opinion": 0.6294}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6294}, "action_source": "replay"}
+{"agent_id": "od-017", "step": 2, "state": {"opinion": 0.6534}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6534}, "action_source": "replay"}
+{"agent_id": "od-018", "step": 2, "state": {"opinion": 0.6773}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6773}, "action_source": "replay"}
+{"agent_id": "od-019", "step": 2, "state": {"opinion": 0.7012}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7012}, "action_source": "replay"}
+{"agent_id": "od-020", "step": 2, "state": {"opinion": 0.7251}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7251}, "action_source": "replay"}
+{"agent_id": "od-021", "step": 2, "state": {"opinion": 0.749}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.749}, "action_source": "replay"}
+{"agent_id": "od-022", "step": 2, "state": {"opinion": 0.7729}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7729}, "action_source": "replay"}
+{"agent_id": "od-023", "step": 2, "state": {"opinion": 0.7968}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7968}, "action_source": "replay"}
+{"agent_id": "od-024", "step": 2, "state": {"opinion": 0.8207}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8207}, "action_source": "replay"}
+{"agent_id": "od-025", "step": 2, "state": {"opinion": 0.8446}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8446}, "action_source": "replay"}
+{"agent_id": "od-026", "step": 2, "state": {"opinion": 0.8685}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8685}, "action_source": "replay"}
+{"agent_id": "od-027", "step": 2, "state": {"opinion": 0.8924}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8924}, "action_source": "replay"}
+{"agent_id": "od-028", "step": 2, "state": {"opinion": 0.9163}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9163}, "action_source": "replay"}
+{"agent_id": "od-029", "step": 2, "state": {"opinion": 0.9402}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9402}, "action_source": "replay"}
+{"agent_id": "od-030", "step": 2, "state": {"opinion": 0.9631}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9631}, "action_source": "replay"}
+{"agent_id": "od-031", "step": 2, "state": {"opinion": 0.9776}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9776}, "action_source": "replay"}
+{"agent_id": "od-000", "step": 3, "state": {"opinion": 0.4347}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.4347}, "action_source": "replay"}
+{"agent_id": "od-001", "step": 3, "state": {"opinion": 0.4441}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.4441}, "action_source": "replay"}
+{"agent_id": "od-002", "step": 3, "state": {"opinion": 0.4606}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.4606}, "action_source": "replay"}
+{"agent_id": "od-003", "step": 3, "state": {"opinion": 0.4788}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.4788}, "action_source": "replay"}
+{"agent_id": "od-004", "step": 3, "state": {"opinion": 0.4971}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.4971}, "action_source": "replay"}
+{"agent_id": "od-005", "step": 3, "state": {"opinion": 0.5154}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5154}, "action_source": "replay"}
+{"agent_id": "od-006", "step": 3, "state": {"opinion": 0.5337}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5337}, "action_source": "replay"}
+{"agent_id": "od-007", "step": 3, "state": {"opinion": 0.5519}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5519}, "action_source": "replay"}
+{"agent_id": "od-008", "step": 3, "state": {"opinion": 0.5702}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5702}, "action_source": "replay"}
+{"agent_id": "od-009", "step": 3, "state": {"opinion": 0.5885}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5885}, "action_source": "replay"}
+{"agent_id": "od-010", "step": 3, "state": {"opinion": 0.6068}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6068}, "action_source": "replay"}
+{"agent_id": "od-011", "step": 3, "state": {"opinion": 0.6251}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6251}, "action_source": "replay"}
+{"agent_id": "od-012", "step": 3, "state": {"opinion": 0.6434}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6434}, "action_source": "replay"}
+{"agent_id": "od-013", "step": 3, "state": {"opinion": 0.6616}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6616}, "action_source": "replay"}
+{"agent_id": "od-014", "step": 3, "state": {"opinion": 0.6799}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6799}, "action_source": "replay"}
+{"agent_id": "od-015", "step": 3, "state": {"opinion": 0.6983}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6983}, "action_source": "replay"}
+{"agent_id": "od-016", "step": 3, "state": {"opinion": 0.7165}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7165}, "action_source": "replay"}
+{"agent_id": "od-017", "step": 3, "state": {"opinion": 0.7348}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7348}, "action_source": "replay"}
+{"agent_id": "od-018", "step": 3, "state": {"opinion": 0.7531}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7531}, "action_source": "replay"}
+{"agent_id": "od-019", "step": 3, "state": {"opinion": 0.7714}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7714}, "action_source": "replay"}
+{"agent_id": "od-020", "step": 3, "state": {"opinion": 0.7897}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7897}, "action_source": "replay"}
+{"agent_id": "od-021", "step": 3, "state": {"opinion": 0.808}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.808}, "action_source": "replay"}
+{"agent_id": "od-022", "step": 3, "state": {"opinion": 0.8263}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8263}, "action_source": "replay"}
+{"agent_id": "od-023", "step": 3, "state": {"opinion": 0.8446}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8446}, "action_source": "replay"}
+{"agent_id": "od-024", "step": 3, "state": {"opinion": 0.8628}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8628}, "action_source": "replay"}
+{"agent_id": "od-025", "step": 3, "state": {"opinion": 0.8811}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8811}, "action_source": "replay"}
+{"agent_id": "od-026", "step": 3, "state": {"opinion": 0.8994}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8994}, "action_source": "replay"}
+{"agent_id": "od-027", "step": 3, "state": {"opinion": 0.9177}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9177}, "action_source": "replay"}
+{"agent_id": "od-028", "step": 3, "state": {"opinion": 0.936}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.936}, "action_source": "replay"}
+{"agent_id": "od-029", "step": 3, "state": {"opinion": 0.9541}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9541}, "action_source": "replay"}
+{"agent_id": "od-030", "step": 3, "state": {"opinion": 0.9707}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9707}, "action_source": "replay"}
+{"agent_id": "od-031", "step": 3, "state": {"opinion": 0.9801}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9801}, "action_source": "replay"}
+{"agent_id": "od-000", "step": 4, "state": {"opinion": 0.4933}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.4933}, "action_source": "rule"}
+{"agent_id": "od-001", "step": 4, "state": {"opinion": 0.5008}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5008}, "action_source": "rule"}
+{"agent_id": "od-002", "step": 4, "state": {"opinion": 0.5148}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5148}, "action_source": "rule"}
+{"agent_id": "od-003", "step": 4, "state": {"opinion": 0.5309}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5309}, "action_source": "rule"}
+{"agent_id": "od-004", "step": 4, "state": {"opinion": 0.5474}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5474}, "action_source": "rule"}
+{"agent_id": "od-005", "step": 4, "state": {"opinion": 0.5639}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5639}, "action_source": "rule"}
+{"agent_id": "od-006", "step": 4, "state": {"opinion": 0.5803}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5803}, "action_source": "rule"}
+{"agent_id": "od-007", "step": 4, "state": {"opinion": 0.5967}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5967}, "action_source": "rule"}
+{"agent_id": "od-008", "step": 4, "state": {"opinion": 0.6132}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6132}, "action_source": "rule"}
+{"agent_id": "od-009", "step": 4, "state": {"opinion": 0.6297}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6297}, "action_source": "rule"}
+{"agent_id": "od-010", "step": 4, "state": {"opinion": 0.6461}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6461}, "action_source": "rule"}
+{"agent_id": "od-011", "step": 4, "state": {"opinion": 0.6626}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6626}, "action_source": "rule"}
+{"agent_id": "od-012", "step": 4, "state": {"opinion": 0.679}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.679}, "action_source": "rule"}
+{"agent_id": "od-013", "step": 4, "state": {"opinion": 0.6955}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6955}, "action_source": "rule"}
+{"agent_id": "od-014", "step": 4, "state": {"opinion": 0.7119}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7119}, "action_source": "rule"}
+{"agent_id": "od-015", "step": 4, "state": {"opinion": 0.7284}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7284}, "action_source": "rule"}
+{"agent_id": "od-016", "step": 4, "state": {"opinion": 0.7449}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7449}, "action_source": "rule"}
+{"agent_id": "od-017", "step": 4, "state": {"opinion": 0.7613}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7613}, "action_source": "rule"}
+{"agent_id": "od-018", "step": 4, "state": {"opinion": 0.7778}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7778}, "action_source": "rule"}
+{"agent_id": "od-019", "step": 4, "state": {"opinion": 0.7943}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7943}, "action_source": "rule"}
+{"agent_id": "od-020", "step": 4, "state": {"opinion": 0.8107}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8107}, "action_source": "rule"}
+{"agent_id": "od-021", "step": 4, "state": {"opinion": 0.8272}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8272}, "action_source": "rule"}
+{"agent_id": "od-022", "step": 4, "state": {"opinion": 0.8437}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8437}, "action_source": "rule"}
+{"agent_id": "od-023", "step": 4, "state": {"opinion": 0.8601}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8601}, "action_source": "rule"}
+{"agent_id": "od-024", "step": 4, "state": {"opinion": 0.8765}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8765}, "action_source": "rule"}
+{"agent_id": "od-025", "step": 4, "state": {"opinion": 0.893}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.893}, "action_source": "rule"}
+{"agent_id": "od-026", "step": 4, "state": {"opinion": 0.9095}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9095}, "action_source": "rule"}
+{"agent_id": "od-027", "step": 4, "state": {"opinion": 0.9259}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9259}, "action_source": "rule"}
+{"agent_id": "od-028", "step": 4, "state": {"opinion": 0.9424}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9424}, "action_source": "rule"}
+{"agent_id": "od-029", "step": 4, "state": {"opinion": 0.9585}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9585}, "action_source": "rule"}
+{"agent_id": "od-030", "step": 4, "state": {"opinion": 0.9726}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9726}, "action_source": "rule"}
+{"agent_id": "od-031", "step": 4, "state": {"opinion": 0.98}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.98}, "action_source": "rule"}
+{"agent_id": "od-000", "step": 5, "state": {"opinion": 0.5457}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5457}, "action_source": "rule"}
+{"agent_id": "od-001", "step": 5, "state": {"opinion": 0.5517}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5517}, "action_source": "rule"}
+{"agent_id": "od-002", "step": 5, "state": {"opinion": 0.5636}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5636}, "action_source": "rule"}
+{"agent_id": "od-003", "step": 5, "state": {"opinion": 0.5779}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5779}, "action_source": "rule"}
+{"agent_id": "od-004", "step": 5, "state": {"opinion": 0.5927}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5927}, "action_source": "rule"}
+{"agent_id": "od-005", "step": 5, "state": {"opinion": 0.6075}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6075}, "action_source": "rule"}
+{"agent_id": "od-006", "step": 5, "state": {"opinion": 0.6223}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6223}, "action_source": "rule"}
+{"agent_id": "od-007", "step": 5, "state": {"opinion": 0.637}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.637}, "action_source": "rule"}
+{"agent_id": "od-008", "step": 5, "state": {"opinion": 0.6519}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6519}, "action_source": "rule"}
+{"agent_id": "od-009", "step": 5, "state": {"opinion": 0.6667}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6667}, "action_source": "rule"}
+{"agent_id": "od-010", "step": 5, "state": {"opinion": 0.6815}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6815}, "action_source": "rule"}
+{"agent_id": "od-011", "step": 5, "state": {"opinion": 0.6963}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6963}, "action_source": "rule"}
+{"agent_id": "od-012", "step": 5, "state": {"opinion": 0.7111}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7111}, "action_source": "rule"}
+{"agent_id": "od-013", "step": 5, "state": {"opinion": 0.7259}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7259}, "action_source": "rule"}
+{"agent_id": "od-014", "step": 5, "state": {"opinion": 0.7407}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7407}, "action_source": "rule"}
+{"agent_id": "od-015", "step": 5, "state": {"opinion": 0.7556}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7556}, "action_source": "rule"}
+{"agent_id": "od-016", "step": 5, "state": {"opinion": 0.7704}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7704}, "action_source": "rule"}
+{"agent_id": "od-017", "step": 5, "state": {"opinion": 0.7852}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7852}, "action_source": "rule"}
+{"agent_id": "od-018", "step": 5, "state": {"opinion": 0.8}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8}, "action_source": "rule"}
+{"agent_id": "od-019", "step": 5, "state": {"opinion": 0.8149}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8149}, "action_source": "rule"}
+{"agent_id": "od-020", "step": 5, "state": {"opinion": 0.8296}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8296}, "action_source": "rule"}
+{"agent_id": "od-021", "step": 5, "state": {"opinion": 0.8445}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8445}, "action_source": "rule"}
+{"agent_id": "od-022", "step": 5, "state": {"opinion": 0.8593}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8593}, "action_source": "rule"}
+{"agent_id": "od-023", "step": 5, "state": {"opinion": 0.8741}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8741}, "action_source": "rule"}
+{"agent_id": "od-024", "step": 5, "state": {"opinion": 0.8889}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8889}, "action_source": "rule"}
+{"agent_id": "od-025", "step": 5, "state": {"opinion": 0.9037}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9037}, "action_source": "rule"}
+{"agent_id": "od-026", "step": 5, "state": {"opinion": 0.9185}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9185}, "action_source": "rule"}
+{"agent_id": "od-027", "step": 5, "state": {"opinion": 0.9333}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9333}, "action_source": "rule"}
+{"agent_id": "od-028", "step": 5, "state": {"opinion": 0.9481}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9481}, "action_source": "rule"}
+{"agent_id": "od-029", "step": 5, "state": {"opinion": 0.9623}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9623}, "action_source": "rule"}
+{"agent_id": "od-030", "step": 5, "state": {"opinion": 0.9743}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9743}, "action_source": "rule"}
+{"agent_id": "od-031", "step": 5, "state": {"opinion": 0.9803}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9803}, "action_source": "rule"}
+{"agent_id": "od-000", "step": 6, "state": {"opinion": 0.5925}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5925}, "action_source": "rule"}
+{"agent_id": "od-001", "step": 6, "state": {"opinion": 0.5974}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.5974}, "action_source": "rule"}
+{"agent_id": "od-002", "step": 6, "state": {"opinion": 0.6076}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6076}, "action_source": "rule"}
+{"agent_id": "od-003", "step": 6, "state": {"opinion": 0.6202}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6202}, "action_source": "rule"}
+{"agent_id": "od-004", "step": 6, "state": {"opinion": 0.6334}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6334}, "action_source": "rule"}
+{"agent_id": "od-005", "step": 6, "state": {"opinion": 0.6468}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6468}, "action_source": "rule"}
+{"agent_id": "od-006", "step": 6, "state": {"opinion": 0.6601}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6601}, "action_source": "rule"}
+{"agent_id": "od-007", "step": 6, "state": {"opinion": 0.6733}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6733}, "action_source": "rule"}
+{"agent_id": "od-008", "step": 6, "state": {"opinion": 0.6867}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.6867}, "action_source": "rule"}
+{"agent_id": "od-009", "step": 6, "state": {"opinion": 0.7}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7}, "action_source": "rule"}
+{"agent_id": "od-010", "step": 6, "state": {"opinion": 0.7134}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7134}, "action_source": "rule"}
+{"agent_id": "od-011", "step": 6, "state": {"opinion": 0.7267}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7267}, "action_source": "rule"}
+{"agent_id": "od-012", "step": 6, "state": {"opinion": 0.74}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.74}, "action_source": "rule"}
+{"agent_id": "od-013", "step": 6, "state": {"opinion": 0.7533}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7533}, "action_source": "rule"}
+{"agent_id": "od-014", "step": 6, "state": {"opinion": 0.7666}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7666}, "action_source": "rule"}
+{"agent_id": "od-015", "step": 6, "state": {"opinion": 0.78}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.78}, "action_source": "rule"}
+{"agent_id": "od-016", "step": 6, "state": {"opinion": 0.7934}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.7934}, "action_source": "rule"}
+{"agent_id": "od-017", "step": 6, "state": {"opinion": 0.8067}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8067}, "action_source": "rule"}
+{"agent_id": "od-018", "step": 6, "state": {"opinion": 0.82}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.82}, "action_source": "rule"}
+{"agent_id": "od-019", "step": 6, "state": {"opinion": 0.8334}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8334}, "action_source": "rule"}
+{"agent_id": "od-020", "step": 6, "state": {"opinion": 0.8467}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8467}, "action_source": "rule"}
+{"agent_id": "od-021", "step": 6, "state": {"opinion": 0.86}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.86}, "action_source": "rule"}
+{"agent_id": "od-022", "step": 6, "state": {"opinion": 0.8734}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8734}, "action_source": "rule"}
+{"agent_id": "od-023", "step": 6, "state": {"opinion": 0.8867}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.8867}, "action_source": "rule"}
+{"agent_id": "od-024", "step": 6, "state": {"opinion": 0.9}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9}, "action_source": "rule"}
+{"agent_id": "od-025", "step": 6, "state": {"opinion": 0.9133}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9133}, "action_source": "rule"}
+{"agent_id": "od-026", "step": 6, "state": {"opinion": 0.9266}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9266}, "action_source": "rule"}
+{"agent_id": "od-027", "step": 6, "state": {"opinion": 0.94}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.94}, "action_source": "rule"}
+{"agent_id": "od-028", "step": 6, "state": {"opinion": 0.9532}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9532}, "action_source": "rule"}
+{"agent_id": "od-029", "step": 6, "state": {"opinion": 0.9657}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9657}, "action_source": "rule"}
+{"agent_id": "od-030", "step": 6, "state": {"opinion": 0.976}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.976}, "action_source": "rule"}
+{"agent_id": "od-031", "step": 6, "state": {"opinion": 0.9809}, "action_kind": "update_opinion", "action_payload": {"opinion": 0.9809}, "action_source": "rule"}

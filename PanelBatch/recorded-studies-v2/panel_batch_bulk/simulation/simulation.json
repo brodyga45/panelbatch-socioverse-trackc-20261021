@@ -1,0 +1,20 @@
+{
+  "study_id": "panel_batch_bulk",
+  "n_steps": 6,
+  "seed": 42,
+  "warm_start": null,
+  "decision_ref": "opinion.decision",
+  "decision_args": {
+    "confidence": 0.3,
+    "llm_kind": "scripted",
+    "model": "gpt-4o-mini",
+    "prompt_lang": "zh",
+    "max_workers": 8
+  },
+  "collector_ref": "opinion.collector",
+  "collector_args": {},
+  "interaction_rounds": 1,
+  "engine_args": {},
+  "store_ref": "panel_batch.arrow",
+  "store_args": {}
+}

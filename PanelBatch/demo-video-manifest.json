@@ -1,0 +1,126 @@
+{
+  "created_at": "2026-10-20T23:56:11.050620+00:00",
+  "file": "PanelBatch-recorded-demo-v1.mp4",
+  "sha256": "d3e85dde2a11b3abbea2f925327aff7348ecd71e4f488b7e3186385efcfeb9b9",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "12/1"
+      }
+    ],
+    "format": {
+      "duration": "88.000000",
+      "size": "383502"
+    }
+  },
+  "segments": [
+    {
+      "title": "PanelBatch: persistence without changed outcomes",
+      "seconds": 8,
+      "mono": false,
+      "lines": [
+        "SocioVerse Track C local candidate",
+        "128 synthetic agents, six abstract decision rounds.",
+        "AI-assisted implementation; zero simulation LLM calls.",
+        "The next scenes replay actual recorded CLI output."
+      ]
+    },
+    {
+      "title": "1 / Create a new study and validate its inputs",
+      "seconds": 13,
+      "mono": true,
+      "lines": [
+        "CREATE panel_batch_baseline: forked official reference; typed P/E/B handoffs valid",
+        "CONFIG agents=128 steps=6 seed=42 llm_kind=scripted store_ref=duckdb",
+        "ROSTER materialized 128 persistent synthetic agent IDs",
+        "",
+        "New fork; the official reference stays unchanged.",
+        "Typed population, environment and simulation artifacts."
+      ]
+    },
+    {
+      "title": "2 / Run the official baseline and retain its data",
+      "seconds": 14,
+      "mono": true,
+      "lines": [
+        "baseline step=0 mean=0.500000 std=0.288700",
+        "baseline step=1 mean=0.500000 std=0.288600",
+        "baseline step=2 mean=0.617500 std=0.220800",
+        "baseline step=3 mean=0.707400 std=0.168900",
+        "baseline step=4 mean=0.736600 std=0.151900",
+        "baseline step=5 mean=0.763000 std=0.136700",
+        "baseline step=6 mean=0.786700 std=0.123000",
+        "",
+        "COMPLETE baseline: 896 panel rows; decision sources={'rule': 768}"
+      ]
+    },
+    {
+      "title": "3 / Select the compatible writer; run the same study",
+      "seconds": 14,
+      "mono": true,
+      "lines": [
+        "CONFIG agents=128 steps=6 seed=42 llm_kind=scripted store_ref=panel_batch.arrow",
+        "bulk     step=0 mean=0.500000 std=0.288700",
+        "bulk     step=1 mean=0.500000 std=0.288600",
+        "bulk     step=2 mean=0.617500 std=0.220800",
+        "bulk     step=3 mean=0.707400 std=0.168900",
+        "bulk     step=4 mean=0.736600 std=0.151900",
+        "bulk     step=5 mean=0.763000 std=0.136700",
+        "bulk     step=6 mean=0.786700 std=0.123000",
+        "COMPLETE bulk: 896 panel rows; decision sources={'rule': 768}"
+      ]
+    },
+    {
+      "title": "4 / Compare all persisted values",
+      "seconds": 12,
+      "mono": false,
+      "lines": [
+        "Exact sorted panel / metrics / events parity: PASS",
+        "896 rows per study; 768 rule decisions per writer.",
+        "Databases, Parquet exports and metric histories retained.",
+        "The source trace and data fingerprint are in the package.",
+        "This 128-agent demo is not a speed estimate."
+      ]
+    },
+    {
+      "title": "5 / Separate performance evidence and its limits",
+      "seconds": 17,
+      "mono": false,
+      "lines": [
+        "Pilot: 2,048 agents, six steps, three seeds: 9.96x median full-run ratio.",
+        "Separate fresh processes: 4.147s baseline / 0.852s bulk.",
+        "Peak RSS: 160.1 MB baseline / 179.5 MB bulk.",
+        "Local host only. No model-bound or memory-saving claim.",
+        "See raw timings, correctness checks and the working report."
+      ]
+    },
+    {
+      "title": "Reproduce, inspect, then judge",
+      "seconds": 10,
+      "mono": false,
+      "lines": [
+        "Original component + pinned public upstream + raw data.",
+        "One-command numerical reproduction and four compatibility checks.",
+        "No real-person dataset or API credentials are included.",
+        "Local draft: no entry, prize or payment is claimed."
+      ]
+    }
+  ],
+  "capture_provenance": "Actual demo_study.py output recorded in trace.jsonl; edited text-card replay, not screen capture. Timing remapped for readability. No generated screenshots, synthetic speech, fake UI or fabricated study results.",
+  "source_trace": "recorded-studies-v2/trace.jsonl",
+  "source_data": "recorded-studies-v2/summary.json",
+  "simulation_LLM_calls": 0,
+  "cash_spend": 0,
+  "public_video_URL": null,
+  "visual_QA": {
+    "all7source_scenes_inspected": true,
+    "actual_encoded_frame58seconds_inspected": true,
+    "clipping_or_overlap_observed": false,
+    "actual_duration_seconds": 88
+  }
+}
