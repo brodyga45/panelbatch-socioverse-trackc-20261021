@@ -16,7 +16,7 @@ On one macOS ARM64 host, an archived three-seed six-step confirmation experiment
 with2048agents measured an8.14x median full-run ratio. All raw timings and data are
 retained, alongside a different preliminary series. A separate fresh-process
 resource check found about19.5MB higher peak RSS; no memory/energy or model-bound
-speedup is claimed. See the4page working report and full raw evidence under
+speedup is claimed. See the5page working report and full raw evidence under
 `PanelBatch/`. These are local measurements, not independent replication.
 
 ## Linux compatibility check
@@ -39,3 +39,7 @@ as its companion dependency.
 Implementation, experiments and report were AI-assisted. No human code review,
 contest acceptance, award, business-bank receipt or empirical claim about real
 people is asserted. Team registration and source publication are not revenue.
+
+## When the opt-in writer may help
+
+The5page report now distinguishes absolute saved time, a clearly labelled arithmetic sensitivity to additional work, the higher RSS, integration/maintenance cost and the simpler upstream-patch alternative. Existing measurements were not rerun or replaced. A separate agent also reproduced the exactv4 study entrypoint locally; that is a scoped operational check, not human or scientific replication. See `PanelBatch/adoption-analysis.json` and `PanelBatch/independent-agent-entrypoint-check.json`.

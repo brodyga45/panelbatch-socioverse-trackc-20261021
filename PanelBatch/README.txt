@@ -55,7 +55,7 @@ Updated candidate data:
   The video is a labelled replay of real output, not a screen recording.
 - reproduce.sh now writes a new run directory and preserves packaged evidence.
   It prints its OS-temp output path; the new raw results remain for inspection.
-- The report remains a4-page working draft; current cockpit formatting and
+- The report remains a5-page working draft; current cockpit formatting and
   eventual award bank settlement are still to be confirmed.
 
 Linux compatibility was checked on21Oct2026 by a standard public GitHub Actions
@@ -64,3 +64,7 @@ tests passed; an actual128-agent baseline/bulk study produced896rows each with
 exact panel/metrics/events parity. This is compatibility, not Linux speed or
 independent human review. Exact tested source and logs are linked in
 linux-compatibility.json. No paid runner, artifact storage or cache was used.
+
+Researcher decision (report section4): absolute median savings were0.442s at256agents and3.378s at2048agents in the archived six-step series. The conditional extra-work table is arithmetic, not new LLM measurements. Consider the original writer or a small upstream batching patch; no superiority over that unimplemented alternative is claimed. Integration depends on private connection state, fixed columns, batch memory and exclusive connection use. See adoption-analysis.json.
+
+A separate reviewing agent reproduced the exactv4 packaged entrypoint on this Mac using an existing environment:896rows per writer, exact panel/metrics/events parity. See independent-agent-entrypoint-check.json. This is not human review, a speed replication or prize proof.

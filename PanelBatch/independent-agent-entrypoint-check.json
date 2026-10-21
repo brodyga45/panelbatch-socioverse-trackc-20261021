@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-21T12:17:53.816884+00:00",
+  "actual_trace": true,
+  "P": "128 synthetic persistent agents",
+  "E": "official template environment;6abstract rounds",
+  "B": "unchanged scripted decision rule",
+  "LLM_calls": 0,
+  "new_cash_spend": 0,
+  "panel_rows_each": 896,
+  "exact_parity": true,
+  "SHA256": "9a3dfccbb75e99ea8839441b771070d7279ab3fff5370b636ac3d10566a712a2",
+  "upstream_modified": false,
+  "reviewer": "Separate product-review agent Rasp",
+  "scope": "Existing macOS dependency environment, exactv4 entrypoint, not clean install, speed benchmark, human review, scientific replication, judge acceptance or award."
+}

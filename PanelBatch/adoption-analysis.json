@@ -1,0 +1,46 @@
+{
+  "kind": "Derived arithmetic for a researcher adoption decision; not new observations",
+  "source_sha256": {
+    "archived-study-series-v2/benchmark-result.json": "9a41ec4c4cdc44b3cbe824b99d6b29557ada2fef3d80df6302adcaf4a14d4c68",
+    "memory-probe-result.json": "1b79df574d712f5771328d7b28883f5ec702eff07ae5ce6fc19d5536b940afa8"
+  },
+  "measured_median_absolute_savings": [
+    {
+      "agents": 256,
+      "steps": 6,
+      "baseline_seconds": 0.5985563329886645,
+      "bulk_seconds": 0.1570195839740336,
+      "seconds_saved": 0.4415367490146309
+    },
+    {
+      "agents": 2048,
+      "steps": 6,
+      "baseline_seconds": 3.8509333750698715,
+      "bulk_seconds": 0.4730239170603454,
+      "seconds_saved": 3.377909458009526
+    }
+  ],
+  "fresh_process_sensitivity": [
+    {
+      "hypothetical_equal_added_seconds": 0,
+      "baseline_plus_L": 4.1470702909864485,
+      "bulk_plus_L": 0.8515806251671165,
+      "conditional_ratio": 4.869850450358257
+    },
+    {
+      "hypothetical_equal_added_seconds": 10,
+      "baseline_plus_L": 14.147070290986449,
+      "bulk_plus_L": 10.851580625167117,
+      "conditional_ratio": 1.3036875253155649
+    },
+    {
+      "hypothetical_equal_added_seconds": 60,
+      "baseline_plus_L": 64.14707029098645,
+      "bulk_plus_L": 60.85158062516712,
+      "conditional_ratio": 1.0541561884171728
+    }
+  ],
+  "assumptions": "One existing fresh process per writer, equal additive extra work, no interaction. No LLM run, statistical performance prediction, scaling validation, energy or profit claim.",
+  "maintenance": "Import/register class and select store_ref; Arrow is already core in pinned upstream. Private connection state, fixed six-column types, batch materialization and exclusive connection remain constraints.",
+  "alternative": "Existing upstream writer or a small upstream batching patch; alternative patch not implemented or benchmarked; no superiority claim."
+}
