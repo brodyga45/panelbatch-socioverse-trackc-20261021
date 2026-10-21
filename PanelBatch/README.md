@@ -57,3 +57,10 @@ Updated candidate data:
   It prints its OS-temp output path; the new raw results remain for inspection.
 - The report remains a4-page working draft; current cockpit formatting and
   eventual award bank settlement are still to be confirmed.
+
+Linux compatibility was checked on21Oct2026 by a standard public GitHub Actions
+Ubuntu x86_64 runner, Python3.12.15, DuckDB1.5.6 and Arrow26.0.0. Four semantic
+tests passed; an actual128-agent baseline/bulk study produced896rows each with
+exact panel/metrics/events parity. This is compatibility, not Linux speed or
+independent human review. Exact tested source and logs are linked in
+linux-compatibility.json. No paid runner, artifact storage or cache was used.

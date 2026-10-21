@@ -25,8 +25,12 @@ The workflow uses a standard Ubuntu GitHub-hosted runner and Python3.12. It runs
 four meaningful compatibility checks and a new actual128-agent baseline/bulk
 study, comparing every stored panel value, metrics and events. It does not rerun
 large speed benchmarks, upload artifacts, use a cache, access paid APIs, or
-establish an independent human review. Until a concrete successful run is linked,
-Linux compatibility is unverified.
+establish an independent human review. The exact implementation commit `ce0a12e5f52f9dbe2aa6728fee94e9d11fb8f81d`
+passed [run39592649924](https://github.com/brodyga45/panelbatch-socioverse-trackc-20261021/actions/runs/39592649924)
+on21Oct2026:4tests passed and both actual128-agent studies retained896rows each
+with exact panel/metrics/events parity. This automated hosted-runner check is not
+an independent scientific replication or a Linux speed benchmark. Later
+documentation-only commits preserve the tested implementation unchanged.
 
 For local one-command performance reproduction, follow `PanelBatch/README.md`.
 The study-only archive has a separate `run.py` entrypoint and uses this full project

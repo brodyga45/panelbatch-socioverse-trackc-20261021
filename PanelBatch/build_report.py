@@ -1,4 +1,4 @@
-"""Build the private candidate report from actual measured JSON, never example numbers."""
+"""Build the candidate report from actual measured JSON, never example numbers."""
 import json
 import statistics
 from pathlib import Path
@@ -42,7 +42,7 @@ def page(): story.append(PageBreak())
 
 small('SOCIOVERSE TRACK C CANDIDATE / WORKING REPORT / 21 OCTOBER 2026')
 story.append(Paragraph('PanelBatch: faster trajectory writes with unchanged study outcomes', styles['Title']))
-small('brodyga45 | AI-assisted implementation and report | Private local draft, not submitted')
+small('brodyga45 | AI-assisted implementation and report | Working draft, not submitted')
 sub('Abstract')
 p('We evaluate an opt-in trajectory writer for SocioVerse2. The current writer already commits one transaction per step, but passes individual parameter rows through executemany. PanelBatch constructs a typed Arrow table and performs one INSERT SELECT per panel batch. The contribution is a compatible implementation and an explicit preservation experiment, not a new database algorithm. All experiments use synthetic agents and deterministic decisions; there are no live language-model calls.')
 c = study['cases'][1]
@@ -51,7 +51,7 @@ sub('1. Research question and practical scope')
 p('Longitudinal simulation persists one row per agent per time step. Researchers comparing interventions or repeating seeds can therefore produce large panel datasets even when their decision rule is inexpensive. Can replacing the panel insertion mechanism reduce runtime while preserving the observable research record and failure semantics? The unit of evaluation is the runtime and its generated data. The study does not estimate actual opinions or intervention effects.')
 p('The population P consists of declared synthetic agents: 128-8,192 records per batch in the component experiment, and 256 or 2,048 agents in the full study. Environment E and behavior B in the full study are the official opinion_diffusion template and its scripted decision rule. We change persistence only. The baseline reference study, agent model, seed, horizon, events and decision sequence remain fixed between writers.')
 sub('Contribution and context')
-p('SocioVerse2 describes longitudinal and controllable research loops [1]. Preserving the resulting history matters for comparisons between versions and counterfactual branches. DuckDB already supports SQL over Arrow objects [2]; our contribution applies that established mechanism through the existing store registry and tests its implications for the current framework. Competitive novelty and eligibility remain for the organizers to assess.')
+p('SocioVerse2 describes longitudinal and controllable research loops [1]. Preserving the resulting history matters for comparisons between versions and counterfactual branches. DuckDB already supports SQL over Arrow objects [2]; our contribution applies that established mechanism through the existing store registry and tests its implications for the current framework. Competitive novelty and final acceptance remain for the organizers to assess.')
 page()
 
 h('2. Implementation and experimental design')
@@ -88,7 +88,7 @@ for x in memory['results']:
 table(rows,[110,115,145,120])
 p('This check found a runtime improvement with an approximately 19.5 MB higher peak footprint. The writer materializes columns and an Arrow table, so it is not a streaming or bounded-memory improvement. For memory-constrained or model-bound studies, the tradeoff may be unattractive. No conclusion is drawn about energy consumption or monetary profitability.')
 sub('Limitations and unresolved validation')
-p('All measurements are from one macOS ARM64 host with possible competing workloads. Linux and independent judging are not yet verified. The experiment does not cover concurrent writers, crash recovery, very large JSON payloads, external data services or live language models. Component speedups cannot be multiplied into LLM-heavy studies: decision time may dominate. The inherited class depends on upstream private connection state, so future upstream changes require compatibility review. The work is not a general benchmark of Arrow versus all DuckDB ingestion methods.')
+p('Timing measurements are from one macOS ARM64 host with possible competing workloads. A separate automated Linux x86_64 check passed four semantic tests and an actual 128-agent baseline/bulk run with exact panel, metrics and events parity (<link href="https://github.com/brodyga45/panelbatch-socioverse-trackc-20261021/actions/runs/39592649924" color="blue">GitHub run 39592649924</link>, 21 October). This establishes scoped compatibility, not Linux speed or human review. Concurrent writers, crash recovery, very large JSON payloads, external data services and live models remain untested. LLM decision time may dominate. The class depends on upstream private connection state; future changes require review. This is not a general Arrow versus DuckDB benchmark.')
 sub('Reproduction and assistance disclosure')
 p('The package contains original runner sources, the compatible store, pinned dependencies, raw timing JSON and focused semantic checks. With the pinned upstream in upstream/, create a Python 3.12 virtual environment, install requirements-probe.txt and run PANEL_BATCH_PYTHON=venv/bin/python ./reproduce.sh. memory_probe.py runs the separate fresh-process check. Temporary databases and live logs use the OS temporary directory. No API credentials, real-person data or paid service is needed. Upstream retains its Apache-2.0 license and NOTICE.')
 p('Implementation, experiment orchestration and this draft were AI-assisted. There were zero simulation LLM calls, no model identifiers to report and no external model API spend in these experiments. General development/research assistance and local computing costs are not measured here and are not asserted to be free. No human source-code review or independent replication is claimed.')
