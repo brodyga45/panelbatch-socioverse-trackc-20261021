@@ -3,4 +3,5 @@ __pycache__/
 venv/
 .env
 .env.*
+!PanelBatch/upstream/.env.example
 .DS_Store
